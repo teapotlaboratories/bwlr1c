@@ -1,4 +1,5 @@
 
+
   
 # Teapot BWLR1C
  <p align="center"> <img src="https://raw.githubusercontent.com/teapotlaboratories/bwlr1c/main/docs/images/device.jpg" alt="drawing"  width="50%" height="50%"/></p>
@@ -8,6 +9,10 @@ This device is an updated to **Teapot BWLR1B,** by using the an on-board antenna
 By using an STM32WLE MCU, the device is capable of multi-year operation before changing the batteries
 
 Teapot BWLR1C is part of  [Teapot open-hardware project](https://github.com/teapotlaboratories).
+
+## Disclaimer
+- The 1KM range is based on [AERQ - Air Quality Monitoring](https://www.seeedstudio.com/blog/2022/04/27/monitoring-indoor-air-pollutants-the-silent-issue-for-smart-city-iot-using-seeed-lora-e5-and-fusion-pcba/) design, but have not been tested on this device yet
+- The position of the BME680 sensor on the board might not be the most efficient
 
 ## Specification
 
@@ -110,7 +115,7 @@ Here are some good tutorial to convert a Nucleo to and external ST-Link v2:
  - https://www.radioshuttle.de/en/turtle-en/nucleo-st-link-interface-en/
  - https://jeelabs.org/book/1547a/index.html
 
-## Additional Notes
+## Notes
 There are some issue, notes, and behavior that was discovered at the time of testing and development. The following are those discovery:
 - Using Arduino RUI3 framework may introduce some-instability after programming. It is observed that by randomly power-cycling the board in-short interval after flashing, causes the board to hang in Boot mode. The fix is currently on the works.
 
