@@ -1,14 +1,14 @@
 
 
   
-# Teapot BWLR1C
+# Teapotlabs BWLR1C
  <p align="center"> <img src="https://raw.githubusercontent.com/teapotlaboratories/bwlr1c/main/docs/images/device.jpg" alt="drawing"  width="50%" height="50%"/></p>
  
-Teapot BWLR1C is a wireless LoRa environmental sensor capable of sensing temperature, humidity, air pressure and air quality using the on-board BME680.
-This device is an updated to **Teapot BWLR1B,** by using the an on-board antenna.
+Teapotlabs BWLR1C is a wireless LoRa environmental sensor capable of sensing temperature, humidity, air pressure and air quality using the on-board BME680.
+This device is an updated to **Teapotlabs BWLR1B,** by using the an on-board antenna.
 By using an STM32WLE MCU, the device is capable of multi-year operation before changing the batteries
 
-Teapot BWLR1C is part of  [Teapot open-hardware project](https://github.com/teapotlaboratories).
+Teapotlabs BWLR1C is part of  [Teapot open-hardware project](https://github.com/teapotlaboratories).
 
 ## Disclaimer
 - The 1KM range is based on [AERQ - Air Quality Monitoring](https://www.seeedstudio.com/blog/2022/04/27/monitoring-indoor-air-pollutants-the-silent-issue-for-smart-city-iot-using-seeed-lora-e5-and-fusion-pcba/) design, but have not been tested on this device yet
